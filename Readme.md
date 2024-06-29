@@ -1,6 +1,6 @@
 #### Repositório Git:   https://github.com/Ele-Arcoverde/geek.git
 
-#### Vercel: 
+#### Vercel: https://projeto-challengegeek-ele-arcoverdes-projects.vercel.app/
 
 
 <h2 > Projeto Alura Geek - ONE Oracle|Alura-Latam </h2>
