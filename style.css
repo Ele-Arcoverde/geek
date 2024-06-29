@@ -1,0 +1,211 @@
+html {
+    width: 1440px;
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5px; 
+    display: flex;
+    padding: 0px 2px;
+    color: #62d875;
+}
+header {
+    width: 100%;
+    height: 96px;
+    background: #2d0155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_main {
+    width: 1380px;
+    padding: 60px 40px;
+    gap: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+}
+/*
+.formulario {
+    margin-bottom: 20px;
+}
+
+.produto-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.produto-card__imagem {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.produto-card__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+*/
+.product {
+    box-sizing: border-box; 
+    box-shadow: -12px 10px 5.8px 0px #afafaf;
+    border-radius: 10px;
+    width: 758px;
+    padding: 40px 0px;
+    text-align: center;
+}
+.product_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style-type: none; 
+    margin-left: 5px;      
+}
+.card {
+    width: 196px;
+    height: 258px;
+    padding: 10px 0 0 0;
+    border-radius: 10px;
+    border: 2px solid #03318C;
+    box-shadow: -5px 6px 4px 0px #3b3737;
+    margin-bottom: 40px;
+    background: #5D04D9;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.img_card {
+    width: 176px;
+    height: 176px;
+    border: solid 1px #03318C;
+    border-radius: 15px;
+}
+
+.preco_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 90%;
+    padding: 0 2px;
+}
+.preco_container p {
+    text-align: left;
+}
+.icon_trash {
+    width: 38px;
+    height: 38px;
+    background-color:#2d0155;
+    margin: 2px 1px;
+    padding: 5px;
+    border: solid 1px #62d875;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.product_add {
+    width: 471px;
+    height: 517px;
+    padding: 40px 20px;
+    margin: 2px;
+    align-items: center;
+    gap: 40px;
+    background: #FFFFFF;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    font-family: Press Start 2P;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #03318C
+}
+input {
+    width: 392px;
+    height: 58px;
+    gap: 0px;
+    border: solid 3px #03318C;
+    border-radius: 25px;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5D04D9;
+}
+::placeholder {
+    text-align: left;
+    font-family: IBM Plex Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d0155;
+}
+.btn {
+    width: 392px;
+    border:none;
+    display: flex;
+    justify-content: space-between;
+}
+.btn_form {
+    width: 180px;
+    height: 55px;
+    border: solid 3px #03318C;
+    border-radius: 25px;
+    background-color: #5D04D9;
+    color: #62d875;
+    font-family: IBM Plex Mono;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+.limp {background: #FFFFFF; color: #2d0155;}
+footer {
+    width: 1440px;
+    height: 232px;
+    padding: 64px 0px 0px 0px;
+    background: #2d0155;
+    align-items: center;
+}
+.imagemLogo {
+    display: flex;
+    justify-content: center;
+}   
+.autor {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    line-height: 10px;
+    text-align: center;
+}
+
+/*Responsividade Media Querie*/
+@media (max-width: 768px) {
+    .container_main {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+        align-items: center;
+    }
+    .product, .product_add {
+        width: 100%;
+        max-width: 100%;
+    }
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+    .btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn_form {
+        width: 100%;
+    }
+}
+
+

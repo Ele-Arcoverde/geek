@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="container_header">
+        <div class="imagemLogo"> <img src="./img/Logo_header.svg" alt="logo_header">
+        </div> 
+    </header>
+
+     <main class="container_main">
+      <section  class="product">
+        <h3> <strong> Produtos </strong>  </h3> 
+        <div class="product_cards">
+          <li class="product_cards" data-lista></li>                           
+        </div>                
+      </section>
+                
+    <!--linha1  
+                <li class="card"> 
+                    <img src="./img/unsplash_gamebco.png" alt="cartão"  class="img_card">
+                    <h4>Caneca</h4>
+                    <div class="preco_container">
+                        <p>R$ 25,00 </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                    
+                <li class="card"> 
+                    <img src="./img/boneco_luigi.jpeg" alt="cartão"  class="img_card  luigi">
+                    <h4>Game Boy Classic</h4>
+                    <div class="preco_container">
+                        <p>R$ 80,00</p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                <li class="card"> 
+                    <img src="./img/unsplash_gamebco.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>                  
+    <!--linha2 
+                <li class="card"> 
+                    <img src="./img/Skill_GameBoyClassico.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                <li class="card"> 
+                    <img src="./img/unsplash_gamebco.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                <li class="card"> 
+                    <img src="./img/Skill_GameBoyClassico.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>                  
+    <!--linha3                  
+                <li class="card"> 
+                    <img src="./img/unsplash_gamebco.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                <li class="card"> 
+                    <img src="./img/Skill_GameBoyClassico.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                <li class="card"> 
+                    <img src="./img/unsplash_gamebco.png" alt="cartão"  class="img_card">
+                    <h4>Nome do Produto</h4>
+                    <div class="preco_container">
+                        <p>R$ </p>
+                        <img src="./img/🦆 icon _trash 2_.png" alt="Excluir" class="icon_trash">
+                    </div>
+                </li>
+                
+                 --> 
+
+    <!--Formulario-->  
+            <form data-formulario class="product_add">
+                <h3><strong> Adicionar Produto </strong></h3>
+            
+                <input type="text" name="nome" class="add" data-nome placeholder="Nome do produto..." id="nome" required>
+
+                <input type="text" name="preco" class="add" data-preco placeholder="R$ ..." id="preco" required>
+
+                <input type="text" name="imagem" class="add" data-imagem  placeholder="Insira a imagem" id="imagem" required>
+               
+                <div class="btn">
+                    <button type="submit" class="btn_form guar">GUARDAR</button>
+                    <button type="reset"  class="btn_form limp">LIMPAR</button>
+                </div>
+            </form>   
+        </div>
+    </main>
+    <footer>
+        <div class="imagemLogo"> 
+            <img src="./img/Logo_header.svg">
+        </div>
+        <div class="autor">
+            <h4>DESENVOLVIDO POR ELENICE</h4>
+            <p>ALURA LATAM- 202X</p>
+        </div>
+    </footer>
+
+    <script src="./js/buscarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module"></script>
+  </body>
+</html>
+
+
+<!--    <section class="product">
+             <div class ="product_cards" id="product_cards">
+           <h3>Meus Produtos </h3> 
+                -- Produtos serão inseridos aqui via JavaScript ({} db.json)--
+            </div>
+        </section> -->

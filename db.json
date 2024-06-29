@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Caneca",
+      "preco": "39,99",
+      "imagem": "./img/unsplash_gamebco.png"
+    },
+    {
+      "id": 2,
+      "nome": "Boneco Luigi",
+      "preco": "60,99",
+      "imagem": "./img/boneco_luigi.jpeg"
+    },
+    {
+      "id": 3,
+      "nome": "Kit Joystick-Fone",
+      "preco": "450,00",
+      "imagem": "./img/Joystick e Fone gamer.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Microfone",
+      "preco": "109,95",
+      "imagem": "./img/microfone.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Fone de Ouvido AKG",
+      "preco": "367,90",
+      "imagem": "./img/Fone de Ouvido AKG.jpg"
+    },
+    {
+      "id": 6,
+      "nome": "Fone Bluetooth",
+      "preco": "84,90",
+      "imagem": "./img/Fone de ouvido Bluetooth.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Kerber",
+      "preco": "134,99",
+      "imagem": "./img/pexels-kerber.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Game Boy Classic",
+      "preco": "99,99",
+      "imagem": "./img/Skill_GameBoyClassico.png"
+    },
+    {
+      "id": 9,
+      "nome": "Joystick Xbox",
+      "preco": "219,99",
+      "imagem": "./img/Joystick Xbox.jpg"
+    }
+  ]
+}
